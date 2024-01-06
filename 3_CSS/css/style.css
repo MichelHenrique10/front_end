@@ -1,0 +1,74 @@
+/* 4 - External CSS */
+h3 {
+    color: green;
+}
+
+/* Classes */
+.paragraph {
+    background-color: black;
+    color: blueviolet;
+}
+
+/* Id */
+#exclusive-title {
+    color: cornflowerblue;
+    background-color: yellowgreen;
+    font-size: 50px;
+}
+
+/* Ordem das regras */
+h2 {
+    border-bottom: 5px solid red;
+}
+
+.title {
+    border-bottom: 6px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 5px solid green;
+}
+
+/* Nome de cores */
+.color-name {
+    color: crimson;
+}
+
+/* Hex */
+.hex {
+    color: #55a398;
+}
+
+.hex-2 {
+    color: #366049;
+}
+
+/* Aprofundando em Hex */
+.simple-hex {
+    color: #333;
+}
+
+.simple-hex-2 {
+    color: #a5f;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(123, 324, 205);
+}
+
+.rgba {
+    color: rgba(105, 77, 94, 25);
+}
+
+.hsl {
+    color: hsl(201, 80%, 69%);
+}
+
+.hsl-2 {
+    color: hsl(234, 85%, 50%);
+}
