@@ -136,3 +136,50 @@
 
 // console.log(r);
 
+// 13 - Identação 
+// for (let u = 0; u < 10; u++) {
+//     if (u * 2 > 10) {
+//         console.log(`Maior que 10! ${u}`)
+//     } else {
+//         if (u / 2 === 0) {
+//             console.log(`Deu zero`)
+//         }
+//     }
+// }
+
+// 14 - Break
+//  for (let g = 20; g > 10; g--) {
+//     console.log(`O valor de g é:${g}`);
+
+//     if (g === 16) {
+//         console.log(`O g é igual a 16!`);
+//         break
+//     }
+// }
+
+// 15 - Continue
+// for (let s = 1; s <= 10; s++) {
+//     // Operador de Resto = %
+//     if (s % 2 === 0) {
+//         console.log(`Número par!`)
+//         continue
+//     }
+//     console.log(s)
+// }
+
+// 16 - Switch Case
+// const job = `Advogado`
+
+// switch (job) {
+//     case `Programador`:
+//         console.log(`Você é um programador!`);
+//         break;
+//     case `Advogado`:
+//         console.log(`Você é um advogado!`);
+//         break;
+//     case `Engenheiro`:
+//         console.log(`Você é um engenheiro!`);
+//         break;
+//     default:
+//         console.log(`Profissão não encontrada!`);
+// }
