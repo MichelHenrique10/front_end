@@ -193,11 +193,11 @@ const untilTen = (n, m) => {
 
         console.log(x);
 
-        untilTen(x, m)
+        untilTen(x, m);
     }
-}
+};
 
-untilTen(70, 7);
+untilTen(100, 7);
 
 function factorial(x) {
     if (x === 0) {
@@ -207,7 +207,7 @@ function factorial(x) {
     }
 }
 
-const num = 2;
-const result = factorial(num)
+const num = 5;
+const result = factorial(num);
 
 console.log(`O fatorial do numero ${num} é ${result}`);
