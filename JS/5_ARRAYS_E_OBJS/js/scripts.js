@@ -246,3 +246,72 @@ const car = {
 // // 22 - repeat
 // const palavra = `Testando `;
 // console.log(palavra.repeat(5));
+
+// 23 - Rest operator
+// const somaInfinita = (...args) => {
+//     let total = 0
+//     for(let i = 0; i < args.length; i++) {
+//         total += args[i]
+//     }
+//     return total;
+// }
+
+// console.log(somaInfinita(1, 2, 5));
+// console.log(somaInfinita(1, 20, 34, 342, 868, 343, 343, 767, 343, 9284));
+
+// // 24 - forOf
+// const somaInfinita2 = (...args) => {
+//     let total = 0
+//     for(num of args) {
+//         total += num
+//     };
+
+//     return total;
+// };
+
+// console.log(somaInfinita2(2, 3, 9));
+// console.log(somaInfinita2(9, 1, 10));
+
+// 25 - Destructuring em objetos
+const userDetails = {
+    firstName: `Michel`,
+    lastName: `Henrique`,
+    job: `Programador`
+}
+
+const {firstName, lastName, job} = userDetails;
+console.log(firstName, lastName, job);
+
+// Renomear variaveis
+const {firstName: primeiroNome } = userDetails;
+console.log(firstName);
+
+// 26 - Destructuring em arrays
+const myList = [`Avião`, `Submarino`, `Carro`, `Trator`];
+const [veiculoA, veiculoB, veiculoC] = myList
+
+console.log(veiculoA, veiculoB, veiculoC);
+console.log(veiculoC);
+console.log(primeiroNome);
+
+// 27 - JSON
+const myJSon = '{"name": "Michel", "age": 18, "skills": ["HTML", "CSS", "JavaScript"]}';
+console.log(myJSon);
+console.log(typeof myJSon);
+
+// 28 - JSON para objeto e objeto para json
+const myObject = JSON.parse(myJSon);
+console.log(myObject);
+console.log(myObject.name);
+console.log(typeof myObject);
+
+// json invalido
+const badJson = '{"name": Michel, "age": 18}';
+// const myBadObject = JSON.parse(badJson);
+
+myObject.isOpenToWork = true;
+console.log(myObject);
+
+const myNewJson = JSON.stringify(myObject);
+console.log(myNewJson);
+console.log(typeof myNewJson);
